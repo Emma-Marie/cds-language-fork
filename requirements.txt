@@ -1,2 +1,5 @@
+matplotlib
+numpy
 pandas
-spacy
+scikit_learn
+seaborn

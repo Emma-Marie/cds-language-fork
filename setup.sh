@@ -1,13 +1,18 @@
 #!/usr/bin/env bash
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-python3 -m pip install -r requirements.txt
-python3 -m spacy download install en_core_web_md
-=======
-python3.9 -m pip install -r requirements.txt
->>>>>>> 0340a5f8bc4e336793595b5f64dd92356131dc4c
-=======
+#create virtual environment
+python3 -, venv spacy_env
+
+# activate virtual environment
+source ./spacy_env/bin/activate
+
+#then install requirements
+python3 -m pip install --upgrade pip
 python3 -m pip install -r requirements.txt
 python3 -m spacy download en_core_web_md
->>>>>>> def5b83dd063505deeea2a4556088d410d4b0cc7
+
+#run the code
+python3 src/script.py
+
+#close the virtual environment
+deactivate

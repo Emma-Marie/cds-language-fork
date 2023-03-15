@@ -1,17 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-numpy
-pandas
-spacy
-gensim
-scikit-learn
-=======
 matplotlib
 numpy
 tensorflow-cpu
->>>>>>> 0c941bf7c04ce8580d248137a1c19ec3e61110e4
-=======
-matplotlib
-numpy
-tensorflow-cpu
->>>>>>> 0c941bf7c04ce8580d248137a1c19ec3e61110e4

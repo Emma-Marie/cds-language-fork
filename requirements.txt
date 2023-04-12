@@ -5,3 +5,5 @@ pandas
 numpy
 tensorflow-cpu
 bertopic
+transformers
+tensorflow-cpu

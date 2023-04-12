@@ -7,3 +7,5 @@ tensorflow-cpu
 bertopic
 transformers
 tensorflow-cpu
+transformers
+tensorflow-cpu
